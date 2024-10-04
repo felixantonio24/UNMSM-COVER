@@ -9,21 +9,26 @@
     width: 100%;
     height: 100%;
    position:absolute;
-   top: 0;
+  
    object-fit: cover;
    z-index: -1;
 }
 
 .logo_principal{
-   display: flex;
-   justify-content: center;
-   margin-top: 10%;
+   margin-left: 25rem;
+  margin-bottom: 5%;
+}
+.img-center{
+ margin-top:120px;
 }
 
 .conteniner-header{
     display: flex;
     justify-content: center;
-    margin-top: 9%;
+    gap: 90px;
+    z-index: 2;
+
+
 
 }
 h2,p {
@@ -33,5 +38,23 @@ p{
     font-size: large;
 }
 .parr-5{
-    width: 10px;
+    width: 200px;
+}
+
+.movie-principal{
+    justify-content: center;
+    display: flex;
+    top: 0;
+}
+
+.img-fondo-article{
+  width: 100%;
+  top: 0;
+}
+.microscopio{
+margin-left: 50px;
+width: 70px;
+}
+.text1 .text2 .text3 .text4 .text5{
+    margin-left: 50px;
 }
